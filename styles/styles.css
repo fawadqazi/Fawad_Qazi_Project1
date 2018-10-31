@@ -654,6 +654,10 @@ ul.headerMenu a:hover, ul.socialIcons a:hover{
 }
 
 @media (max-width: 480px) {
+  header{
+    min-height: 80vh;
+  }
+
   h1{
     font-size: 8rem;
   }
@@ -674,7 +678,6 @@ ul.headerMenu a:hover, ul.socialIcons a:hover{
 
   .wrapper{
     max-width: 90%;
-    min-height: 80vh;
   }
 
   .photosAndEssentialsWrapper {
