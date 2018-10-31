@@ -13,6 +13,8 @@
 </head>
 
 <body>
+   <!-- SKIP TO MAIN CONTENT -->
+   <a href="#maincontent" class="skip-link">Skip to main content.</a>
    <!-- HEADER STARTS -->
    <header>
       <div class="wrapper">
@@ -21,15 +23,6 @@
             <!-- Creates a hamburger menu when screen size changes -->
             <label for="toggle"><i class="fa fa-bars"></i></label>
             <input type="checkbox" id="toggle" name="toggle">
-            <!-- <nav class="mobileNav">
-               <ul>
-                  
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Blog</a></li>
-                  <li><a href="#">Contact</a></li>
-               </ul>
-            </nav> -->
             <ul class=headerMenu>
                <li><label for="toggle"><i class="fas fa-times"></i><span class="visuallyhidden">Exit Navigation</span></label></li>
                <li><a href="#">Home</a></li>
@@ -72,12 +65,8 @@
    </header>
    <!-- HEADER ENDS -->
 
-   <!-- MOBILE MAV STARTS -->
-
-   <!-- MOBILE NAV ENDS -->
-
    <!-- MAIN STARTS -->
-   <main>
+   <main id="maincontent">
       <section class="aboutSummit">
          <div class="wrapper">
             <div class="innerWrapper">
@@ -85,7 +74,7 @@
                <p class="innerWrapperContent spacing">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
                   pulvinar tortor a elementum eleifend. Vestibulum consequat vestibulum felis pharetra luctus. Quisque
                   interdum orci quis convallis dapibus. Vestibulum vitae tincidunt sem, a blandit sem.</p>
-               <a class="buttons" href="#">Find out more</a>
+               <a class="buttons" href="#">Find out more<span class="visuallyhidden">about summit</span></a>
             </div>
          </div>
       </section>
@@ -99,7 +88,7 @@
                   <h3>Peak Photos</h3>
                   <p class="photosAndEssentialsContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
                      pulvinar tortor a elementum eleifend. Vestibulum consequat vestibulum.</p>
-                  <a class="buttons" href="#">Read more</a>
+                  <a class="buttons" href="#">Read more<span class="visuallyhidden">on photos of the peak</span></a>
                </div>
             </div>
          </div>
@@ -112,7 +101,7 @@
                   <h3>Packing Essentials</h3>
                   <p class="photosAndEssentialsContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
                      pulvinar tortor a elementum eleifend. Vestibulum consequat vestibulum.</p>
-                  <a class="buttons" href="#">Read more</a>
+                  <a class="buttons" href="#">Read more<span class="visuallyhidden">on packing essentials</span></a>
                </div>
             </div>
 
@@ -123,14 +112,17 @@
             <div class="menuWrapper clearfix">
                <div class="item">
                   <i class="fas fa-images"></i>
+                  <span class="visuallyhidden">Gallery</span>
                   <h3>Gallery</h3>
                </div>
                <div class="item">
                   <i class="fas fa-user"></i>
+                  <span class="visuallyhidden">About</span>
                   <h3>About</h3>
                </div>
                <div class="item">
                   <i class="fas fa-envelope"></i>
+                  <span class="visuallyhidden">Contact</span>
                   <h3>Contact</h3>
                </div>
             </div>
@@ -149,16 +141,16 @@
                   amet, consectetur adipisicing elit. Unde porro sunt odit, alias tempore officia obcaecati
                   repudiandae, deserunt odio quod ex temporibus cupiditate, laborum et perferendis cumque consectetur
                   labore culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-               <a class="buttons" href="#">Find out more</a>
+               <a class="buttons" href="#">Find out more <span class="visuallyhidden">about me</span></a>
             </div>
          </div>
       </section>
       <section class="gallery">
          <div class="wrapper">
             <div class="galleryWrapper clearfix">
-               <img src="assets/image-5.jpg" alt="">
-               <img src="assets/image-6.jpg" alt="">
-               <img src="assets/image-7.jpg" alt="">
+               <img src="assets/image-5.jpg" alt="tall green trees and mountains">
+               <img src="assets/image-6.jpg" alt="snow covered mountains">
+               <img src="assets/image-7.jpg" alt="view of mountains near body of water">
             </div>
          </div>
       </section>
